@@ -3,13 +3,13 @@
     "id": 1,
     "category": "functional patterns",
     "question": "What is a callback function?",
-    "answer": ""
+    "answer": "A callback function is a function that is passed as an argument to another function and is executed by that function when a particular event or task is completed. The function that receives the callback function is responsible for calling it at the appropriate time, based on the conditions that have been set.\n\nCallbacks are commonly used in programming to handle events such as user input, network requests, and timer events. They allow for asynchronous processing of tasks, which can help improve the performance and responsiveness of applications.\n\nFor example, in JavaScript, a callback function can be passed as an argument to the setTimeout function, which will execute the callback function after a specified amount of time has passed. Similarly, in Node.js, a callback function can be used to handle the result of a database query or a network request.\n\n\nan example of a callback function in JavaScript:\n```\nfunction greeting(name, callback) {\n  console.log(\"Hello, \" + name + \"!\");\n  callback();\n}\n\nfunction sayGoodbye() {\n  console.log(\"Goodbye!\");\n}\n\ngreeting(\"John\", sayGoodbye);\n\n```\n\nIn this example, we have a function greeting that takes two arguments: name and callback. The greeting function logs a message to the console with the name of the person being greeted, and then calls the callback function.\n\nWe also have another function sayGoodbye, which logs a message to the console saying \"Goodbye!\".\n\nWhen we call greeting(\"John\", sayGoodbye), the greeting function logs \"Hello, John!\", and then calls the sayGoodbye function, which logs \"Goodbye!\". This is an example of a callback function, where sayGoodbye is the function that is passed as a callback argument to greeting."
   },
   {
     "id": 2,
     "category": "functional patterns",
     "question": "What is ECMA script ? What is the difference between Javascript & ECMA script ?",
-    "answer": ""
+    "answer": "ECMAScript is a scripting language specification that is used to implement several high-level programming languages, including JavaScript. The ECMAScript specification defines the syntax, semantics, and standard libraries of the language. ECMAScript is developed and maintained by ECMA International, a standards organization that is responsible for the development of several other standards, including the JSON data format.\n\nJavaScript is the most well-known and widely-used implementation of ECMAScript. Other implementations of the ECMAScript specification include JScript, ActionScript, and several other scripting languages. Each implementation of ECMAScript may have its own unique features and capabilities, but they all conform to the ECMAScript specification and share a common syntax and set of language constructs.\n\nThe most recent version of the ECMAScript specification is ECMAScript 2022 (ES2022), which was released in June 2022. Each new version of the specification typically introduces new features and capabilities to the language, while maintaining backward compatibility with previous versions.\n\n\nThere is no difference between JavaScript and ECMAScript, as JavaScript is actually an implementation of the ECMAScript standard.\n\nECMAScript is a standard that defines the syntax, semantics, and standard libraries of a scripting language, and JavaScript is the most widely-used implementation of that standard. Other implementations of ECMAScript include JScript and ActionScript.\n\nJavaScript was originally developed by Netscape in the mid-1990s as a way to add interactivity to web pages. It was later standardized as ECMAScript, with the first edition of the ECMAScript standard published in 1997. Since then, several versions of the ECMAScript specification have been released, each adding new features and capabilities to the language.\n\nIn short, JavaScript is a programming language that implements the ECMAScript standard. While there may be other implementations of ECMAScript, JavaScript is the most popular and widely-used implementation, and the terms \"JavaScript\" and \"ECMAScript\" are often used interchangeably."
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "id": 7,
     "category": "Web basics",
     "question": "What is a web server?",
-    "answer": ""
+    "answer": "Server"
   },
   {
     "id": 8,
